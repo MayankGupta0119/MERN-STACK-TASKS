@@ -1,0 +1,36 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.table {
+  border: 1px solid black;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.row1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: rgb(4, 169, 109);
+  color: white;
+  font-weight: bold;
+}
+.odd_row {
+  background-color: rgb(232, 233, 235);
+}
+.box {
+  width: 18rem;
+  height: 3.5rem;
+  text-align: center;
+}

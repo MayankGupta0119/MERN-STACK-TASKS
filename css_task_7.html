@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css_task_7.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="main_box">
+        <form class="f1">
+          <div class="data">
+            <label for="name_data">Name: </label>
+            <div class="input">
+              <input
+                type="text"
+                name="name"
+                id="name_data"
+                placeholder="your name"
+                class="input"
+              />
+            </div>
+          </div>
+          <div class="data">
+            <label for="email_data">Email:</label>
+            <div class="input">
+              <input
+                type="email"
+                name="email"
+                id="email_data"
+                placeholder="your email"
+                class="input"
+              />
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="pw_data">Password:</label>
+            <div class="input">
+              <input type="password" name="pw" id="pw_data" />
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="phno">Phone Number:</label>
+            <div class="input">
+              <input type="number" name="phone_num" id="phno" />
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="radiobuttons">Gender: </label>
+            &nbsp;
+            <div class="input">
+              <div class="options">
+                <label for="male: ">Male: </label>
+                <input type="radio" name="gender_data" id="male" />
+                <label for="female: ">Female: </label>
+                <input type="radio" name="gender_data" id="female" />
+                <label for="others: ">Others: </label>
+                <input type="radio" name="gender_data" id="others" />
+              </div>
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="types">Language: </label>
+            <div class="input">
+              <select name="language" id="types ">
+                <option disabled selected value="none">Select Language</option>
+                <option value="op0">Hindi</option>
+                <option value="op1">English</option>
+                <option value="op2">Spanish</option>
+                <option value="op3">German</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="zip">Zip Code:</label>
+            <div class="input">
+              <input type="text" name="zipcode" id="zip" />
+            </div>
+          </div>
+
+          <div class="data">
+            <label for="ta">About: </label>
+            <div class="input">
+              <textarea
+                name="about"
+                id="ta"
+                placeholder="Write about yourself"
+                cols="25"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+        </form>
+        <div class="register">Register</div>
+      </div>
+    </div>
+  </body>
+</html>

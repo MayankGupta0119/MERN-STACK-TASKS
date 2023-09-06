@@ -1,0 +1,56 @@
+.wrapper {
+  width: 100;
+  position: relative;
+}
+.box {
+  border: 2px solid black;
+  border-style: dotted;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(217, 218, 62);
+  height: 40rem;
+}
+.left {
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.boxes {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.twobox {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  margin: 1rem;
+  height: 2rem;
+}
+.link {
+  align-self: center;
+  margin-left: 1rem;
+}
+.blacky {
+  width: 25px;
+  background-color: black;
+}
+.right {
+  margin-right: 4rem;
+  min-width: 40%;
+  max-width: 55%;
+  color: rgb(110, 12, 116);
+}
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.right p {
+  font-size: large;
+}

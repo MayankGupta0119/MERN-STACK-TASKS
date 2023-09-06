@@ -1,0 +1,86 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.content {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.heading {
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.outer {
+  border: 2px solid black;
+}
+.inner {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  width: 100%;
+  height: 4rem;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#text {
+  margin-left: 2rem;
+}
+.box1 {
+  color: white;
+  background-color: orange;
+  font-size: larger;
+  font-weight: lighter;
+}
+.box_vh {
+  color: blue;
+  background-color: skyblue;
+  font-size: larger;
+}
+.outer_hz {
+  border: 2px solid black;
+}
+.inner_hz {
+  display: flex;
+  padding: 0.5rem;
+}
+.box_hz {
+  width: 200%;
+  height: 4rem;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.box1_hz {
+  color: white;
+  background-color: gray;
+  font-size: larger;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box_hz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  color: blue;
+  font-size: large;
+  border-left: 1px solid blue;
+}
